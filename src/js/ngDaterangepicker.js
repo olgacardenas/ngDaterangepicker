@@ -223,7 +223,7 @@ angular.module('jkuri.daterangepicker', [])
 
 			// if clicked outside of calendar
 			var classList = ['ng-daterangepicker', 'ng-daterangepicker-container'];
-            if (attrs.id !== undefined) classList.push(attrs.id);
+            		if (attrs.id !== undefined) classList.push(attrs.id);
 			$document.on('click', function (e) {
 				if (!scope.opened) return;
 
