@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>ngDaterangepicker</title>
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="src/css/ngDaterangepicker.css">
+</head>
+<body ng-controller="Ctrl as ctrl">
+
+<ng-daterangepicker ng-model="ctrl.daterange" locale="sl"></ng-daterangepicker>
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/moment/min/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="src/js/ngDaterangepicker.js"></script>
+<script type="text/javascript">
+var app = angular.module('app', ['jkuri.daterangepicker']);
+app.controller('Ctrl', [function() {
+	var self = this;
+
+	self.daterange;
+}]);
+</script>
+</body>
+</html>
