@@ -1,0 +1,30 @@
+{
+  "name": "ngDaterangepicker",
+  "version": "0.9.0",
+  "homepage": "http://demo.jankuri.com/ngDaterangepicker",
+  "authors": [
+    "Jan Kuri <jkuri88@gmail.com>"
+  ],
+  "description": "AngularJS Daterangepicker directive",
+  "main": "src/js/ngDatepicker.js",
+  "keywords": [
+    "AngularJS",
+    "date",
+    "picker",
+    "range",
+    "daterangepicker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6",
+    "font-awesome": "fontawesome#~4.4.0",
+    "moment": "~2.10.6"
+  }
+}
